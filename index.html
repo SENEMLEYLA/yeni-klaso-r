@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    ul { list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: burlywood;
+        width: 25%;
+       border:1px solid #7c6a6a ;
+       }
+    li a{
+        display: block;
+        color: beige;
+        text-decoration: none;
+        padding: 8px 16px
+        }
+        li{
+            border-bottom: 1px solid #7c6a6a;
+            text-align: center;
+        }
+        li a.active{ 
+            background-color: brown;
+            color: blanchedalmond;
+        }
+        li a:hover:not(.active){
+            background-color: black;
+            color: white;
+        }
+</style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li ><a class="active" href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+</body>
+</html>
